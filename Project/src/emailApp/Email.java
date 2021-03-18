@@ -24,7 +24,6 @@ public class Email {
 	}
 	
 	// Asking for department
-	
 	private String setDepartment() {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Enter the department\n1 Sales\n2 Development\n3 Accounting\n0 none\nDepartment:");
