@@ -10,8 +10,11 @@ public class Email {
 	private String department;
 	
 	
-	
 	// Receiving firstname and lastname
+	public Email(String firstName,String lastName) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+	}
 	
 	// Asking for department
 	
