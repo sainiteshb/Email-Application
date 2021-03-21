@@ -10,6 +10,7 @@ public class Email {
 	private String alternateEmail;
 	private int mailboxCapacity;
 	private String department;
+	private int defaultPasswordlength = 10;
 	
 	
 	// Receiving firstname and lastname
@@ -21,6 +22,10 @@ public class Email {
 		// Calling the method for department
 		this.department = setDepartment();
 		System.out.println("Department"+":"+ this.department);
+		
+		// Returning password
+		this.password = randomPassword(defaultPasswordlength);
+		System.out.println("Password"+" : "+ this.password);
 	}
 	
 	// Asking for department
