@@ -2,4 +2,4 @@
 
 **Email Administration Application**
 
--Generates emails for the company email 
+-Generates company email  for different departments.
