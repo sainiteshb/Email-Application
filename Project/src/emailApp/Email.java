@@ -11,6 +11,8 @@ public class Email {
 	private int mailboxCapacity;
 	private String department;
 	private int defaultPasswordlength = 10;
+	private String companyName = "Ncompany.com";
+	private String email;
 	
 	
 	// Receiving firstname and lastname
@@ -26,6 +28,10 @@ public class Email {
 		// Returning password
 		this.password = randomPassword(defaultPasswordlength);
 		System.out.println("Password"+" : "+ this.password);
+		
+		// Combine elements to generate email 
+		email = firstName.toLowerCase() + "."+lastName.toLowerCase()+"@"+ department +"."+ companyName;
+	    System.out.println("Your Email is: "+ email);
 	}
 	
 	// Asking for department
