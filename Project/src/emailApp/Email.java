@@ -83,9 +83,13 @@ public class Email {
 		this.password = password;
 	}
 	
+	// Methods to get information
+	
 	public int getMailboxCapacity() { return mailboxCapacity; }
 	public String getAlternateEmail() { return alternateEmail;}
 	public String getPassword() { return password;}
+	
+	//Method to show all the information
 	
 	public String showInfo() {
 		return "\nDISPLAY NAME: " + firstName + " "+ lastName + 
