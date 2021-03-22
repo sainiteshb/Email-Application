@@ -2,6 +2,8 @@ package emailApp;
 
 import java.util.Scanner;
 
+// Email class for creating email 
+
 public class Email {
    
 	private String firstName;
