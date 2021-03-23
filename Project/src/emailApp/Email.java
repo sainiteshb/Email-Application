@@ -28,7 +28,7 @@ public class Email {
 		
 		
 		// Returning password
-		this.password = randomPassword(defaultPasswordlength);
+		this.password = randomPassword(defaultPasswordlength); 
 		System.out.println("Password"+" : "+ this.password);
 		
 		// Combine elements to generate email 
